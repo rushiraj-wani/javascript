@@ -1,0 +1,14 @@
+* Javascript is a Interpreted language.
+    - Go line by line while executing, can partially run until an error comes.
+    - But Modern JavaScript engines (like V8 in Chrome, SpiderMonkey in Firefox) use JIT compilation.
+        - JIT (Just-In-Time) compilation converts JS code into machine code just before execution for better performance.
+        - This makes JS faster than purely interpreted languages like Python.
+    - JavaScript is mostly considered interpreted, but it also benefits from JIT compilation for     speed optimization.
+
+* JavaScript is a dynamically typed language.
+    - You don’t have to declare variable types (string, number, boolean, etc.).
+    - A variable’s type can change at runtime.
+
+* Javascript is Single Threaded.
+    - But Uses async operations (via Web APIs, Event Loop) to handle multiple tasks efficiently.
+    - Web Workers / Worker Threads can help run code in parallel.
