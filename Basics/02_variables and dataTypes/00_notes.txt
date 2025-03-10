@@ -1,0 +1,7 @@
+* Variables (var, let, const):
+
+1. var: Values can reassign, Functional Scope, Hoisted (but undefined).
+2. let: Values can reassign, Block Scope, Hoisted: Not initialized before use.
+3. const: Values can't reassign, Block Scope, Hoisted: Not initialized before use.
+
+** Avoid var, always use let or const to prevent unexpected behavior. **
